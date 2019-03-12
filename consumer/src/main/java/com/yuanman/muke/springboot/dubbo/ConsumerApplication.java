@@ -13,7 +13,7 @@ public class ConsumerApplication {
        ConfigurableApplicationContext run=
                SpringApplication.run(ConsumerApplication.class, args);
         QuikstartConsumer consumer=(QuikstartConsumer) run.getBean("quikstartConsumer");
-        consumer.sendMessage("hh'");
+        consumer.sendMessage("呵呵'");
     }
 
 }
